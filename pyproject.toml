@@ -1,0 +1,22 @@
+[project]
+name = "adiciona-setor-glosa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "davidsilva049", email = "david.silva@unimedjf.coop.br" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "robo-utils",
+]
+
+[project.scripts]
+adiciona-setor-glosa = "adiciona_setor_glosa.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+robo-utils = { path = "C:/Robos/Automacao-plataforma-prd/robo-utils-prd", editable = true }

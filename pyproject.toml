@@ -15,6 +15,9 @@ dependencies = [
 [project.scripts]
 adiciona-setor-glosa = "adiciona_setor_glosa.main:main"
 
+[project.gui-scripts]
+adiciona-setor-glosa-gui = "adiciona_setor_glosa.gui:main"
+
 [build-system]
 requires = ["uv_build>=0.12.7,<0.13.0"]
 build-backend = "uv_build"
